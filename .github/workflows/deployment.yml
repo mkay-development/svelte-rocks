@@ -1,0 +1,15 @@
+name: Deployment
+on: [push]
+jobs:
+
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+    - name: executing remote ssh commands using key
+      uses: appleboy/ssh-action@v0.1.7
+      with:
+        host: 5.75.170.66
+        username: root
+        key: ${{ secrets.KEY }}
+        script: cd /var/www/rocks.mkay-development.de && sh build.sh

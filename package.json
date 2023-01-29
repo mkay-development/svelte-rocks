@@ -1,0 +1,38 @@
+{
+	"name": "svelte-pwa-template",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "workbox generateSW workbox-config.cjs && vite build",
+		"preview": "vite preview",
+		"test": "playwright test",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"lint": "eslint ."
+	},
+	"devDependencies": {
+		"@playwright/test": "^1.28.1",
+		"@sveltejs/kit": "^1.3",
+		"@typescript-eslint/eslint-plugin": "^5.45.0",
+		"@typescript-eslint/parser": "^5.48.2",
+		"autoprefixer": "^10.4.13",
+		"eslint": "^8.32.0",
+		"eslint-plugin-svelte3": "^4.0.0",
+		"postcss": "^8.4.21",
+		"svelte": "^3.55.1",
+		"svelte-check": "^3.0.2",
+		"tailwindcss": "^3.2.4",
+		"tslib": "^2.4.1",
+		"typescript": "^4.9.3",
+		"vite": "^4.0.0"
+	},
+	"type": "module",
+	"dependencies": {
+		"@fortawesome/free-brands-svg-icons": "^6.2",
+		"@fortawesome/free-solid-svg-icons": "^6.2",
+		"@sveltejs/adapter-static": "^1.0",
+		"svelte-fa": "^3.0",
+		"workbox-cli": "^6.5.4"
+	}
+}
