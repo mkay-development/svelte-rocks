@@ -5,8 +5,15 @@
 </script>
 
 <header class="mx-auto max-w-5xl my-2 flex justify-between px-2 py-2">
-  <h1 class="text-xl font-bold"><a href="/">Logo</a></h1>
-  <nav>Test</nav>
+  <h1 class="text-xl font-bold"><a href="/">Disco - Come In</a></h1>
+  <nav>
+    <ul class="flex space-x-5">
+      <li><a href="/spezial">Spezial</a></li>
+      <li><a href="/bilder">Bilder</a></li>
+      <li><a href="/kontakt">Kontakt</a></li>
+      <li><a href="/impressum">Impressum</a></li>
+    </ul>
+  </nav>
 </header>
 
 <main class="mx-auto max-w-5xl my-2 px-2 py-2"><slot /></main>
@@ -14,7 +21,8 @@
 <footer class="mx-auto max-w-5xl my-2 px-2 py-2">
   <div class="grid grid-cols-6">
     <div class="col-span-6 md:col-span-2">
-      <a href="/impressum">Impressum</a> & <a href="/data-privacy">Datenschutz</a>
+      <a href="/impressum">Impressum</a> &
+      <a href="/data-privacy">Datenschutz</a>
     </div>
     <div class="col-span-6 md:col-span-2 flex">
       Made with <Fa icon={faHeart} class="mx-2 mt-1 text-red-400" /> by Jonathan
