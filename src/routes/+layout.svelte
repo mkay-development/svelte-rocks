@@ -4,10 +4,10 @@
   import { faHeart } from "@fortawesome/free-solid-svg-icons";
 </script>
 
-<header class="mx-auto max-w-5xl my-2 flex justify-between px-2 py-2">
-  <h1 class="text-xl font-bold"><a href="/">Disco - Come In</a></h1>
+<header class="mx-auto max-w-5xl mt-2 rounded-t-lg flex justify-between px-2 py-2 bg-gray-400">
+  <h1 class="text-xl font-bold text-white"><a href="/">Disco - Come In</a></h1>
   <nav>
-    <ul class="flex space-x-5">
+    <ul class="flex space-x-5 text-white mt-1">
       <li><a href="/spezial">Spezial</a></li>
       <li><a href="/bilder">Bilder</a></li>
       <li><a href="/kontakt">Kontakt</a></li>
@@ -16,9 +16,9 @@
   </nav>
 </header>
 
-<main class="mx-auto max-w-5xl my-2 px-2 py-2"><slot /></main>
+<main class="mx-auto max-w-5xl px-2 py-2 bg-gray-400"><slot /></main>
 
-<footer class="mx-auto max-w-5xl my-2 px-2 py-2">
+<footer class="mx-auto max-w-5xl mb-2 px-2 py-2 bg-gray-400 rounded-b-lg">
   <div class="grid grid-cols-6">
     <div class="col-span-6 md:col-span-2">
       <a href="/impressum">Impressum</a> &

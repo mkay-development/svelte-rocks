@@ -3,6 +3,9 @@
 </svelte:head>
 
 <div class="grid grid-cols-6 gap-3">
+  <div class="col-span-6">
+    <img src="../come-wallpaper.png" class="w-full border-b border-red-600" alt="">
+  </div>
   <div class="col-span-6 md:col-span-3">
     <iframe
       title="Facebook Plugin"
