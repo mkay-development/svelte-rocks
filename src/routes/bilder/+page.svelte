@@ -16,6 +16,7 @@
   {#each pictures as pic}
     <div class="col-span-8 md:col-span-2">
       <p class="text-sm block text-center mb-2 font-bold">{pic.name}</p>
+      <!-- svelte-ignore a11y-click-events-have-key-events -->
       <img
         src="https://backend.come-in.rocks/api/files/{pic.collectionId}/{pic.id}/{pic.media}"
         alt=""
