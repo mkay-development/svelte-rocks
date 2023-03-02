@@ -1229,9 +1229,9 @@
   integrity sha512-gTus2jW6bEQAZoT1MdmPHWZZmcb6dfLWc0r6dFHnbzSDZ68kifqQ1E+dZDOMF7aXeRV91sgnPuAn2MtpinVdlA==
 
 "@sveltejs/kit@^1.9":
-  version "1.9.1"
-  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.9.1.tgz#516fe33ab6ee990c9efb18d88fe0ddd6e85c69e9"
-  integrity sha512-SC2pTnaloAL+6744tWl1/b1zGAhZX2zmgmUmKV4Y6nx/y5gP6+MTzY6SC74PYUWSlOPumi8wZ40hQ2RExCFuhg==
+  version "1.9.3"
+  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.9.3.tgz#eb648a04bd8bc9646461a70a45e5bedc86fd6b60"
+  integrity sha512-rh9FbGfS8w328JZSZmG/ahabBbE50TisHvfz4sVNU3IM3AOhgUAv3EhAJ2dij9R8uARbDHRTY8jOQbIPjcKBZQ==
   dependencies:
     "@sveltejs/vite-plugin-svelte" "^2.0.0"
     "@types/cookie" "^0.5.1"
