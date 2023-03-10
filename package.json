@@ -31,7 +31,7 @@
 	"dependencies": {
 		"@fortawesome/free-brands-svg-icons": "^6.2",
 		"@fortawesome/free-solid-svg-icons": "^6.3",
-		"@sveltejs/adapter-static": "^1.0",
+		"@sveltejs/adapter-static": "^2.0",
 		"pocketbase": "^0.12.0",
 		"svelte-fa": "^3.0",
 		"workbox-cli": "^6.5.4"
