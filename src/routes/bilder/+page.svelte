@@ -2,7 +2,7 @@
   /** @type {import('./$types').PageData} */
   export let data;
   import EventGrid from "../../lib/components/EventGrid.svelte";
-  import { media, view, reset } from "../../stores/view";
+  import { media, reset } from "../../stores/view";
 
   let { events } = data;
 </script>

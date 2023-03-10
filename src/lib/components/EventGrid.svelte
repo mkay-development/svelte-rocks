@@ -2,7 +2,7 @@
   import PocketBase from "pocketbase";
   import { onMount } from "svelte";
   export let identifier;
-  import { media, view, reset } from "../../stores/view";
+  import {  view} from "../../stores/view";
   import { url } from "../../stores/backend";
 
   let pictures = [];

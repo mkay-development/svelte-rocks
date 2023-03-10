@@ -6,6 +6,5 @@ const pb = new PocketBase(get(url));
 
 /** @type {import('./$types').PageLoad} */
 export async function load() {
-    let tmp = await pb.collection("event").getList(1, 50);
-    return { 'events': tmp.items.reverse() };
+    return { 'events': await pb.collection("event").getList(1, 50).items.reverse() };
 }
