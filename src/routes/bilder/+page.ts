@@ -1,8 +1,11 @@
 import PocketBase from "pocketbase";
-const pb = new PocketBase("https://backend.come-in.rocks");
+import { get } from "svelte/store";
+import { url } from "../../stores/backend";
+
+const pb = new PocketBase(get(url));
 
 /** @type {import('./$types').PageLoad} */
 export async function load() {
-    let tmp = await pb.collection("pictures").getList(1, 50);
-    return { 'pictures': tmp.items };
+    let tmp = await pb.collection("event").getList(1, 50);
+    return { 'events': tmp.items.reverse() };
 }

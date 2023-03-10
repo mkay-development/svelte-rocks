@@ -10,7 +10,7 @@
     <ul class="flex space-x-5 text-black mt-1">
       <li><a href="/spezial">Spezial</a></li>
       <li><a href="/bilder">Bilder</a></li>
-      <li><a href="/kontakt">Kontakt</a></li>
+      <li><a href="mailto:info@come-in.rocks">Kontakt</a></li>
       <li><a href="/impressum">Impressum</a></li>
     </ul>
   </nav>
