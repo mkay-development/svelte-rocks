@@ -1228,10 +1228,10 @@
   resolved "https://registry.yarnpkg.com/@sveltejs/adapter-static/-/adapter-static-1.0.6.tgz#897c0a1e7b929be8dc1871d28cab7746afa7bf72"
   integrity sha512-gTus2jW6bEQAZoT1MdmPHWZZmcb6dfLWc0r6dFHnbzSDZ68kifqQ1E+dZDOMF7aXeRV91sgnPuAn2MtpinVdlA==
 
-"@sveltejs/kit@^1.8":
-  version "1.8.8"
-  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.8.8.tgz#417616fd0f962c6e481b023c53a330c6fbd58cc9"
-  integrity sha512-64bEcgIECQ8TPQ7sCMo1X1IMSkFjTP8MaKB4YpG4Tw3rvKDaVxBt6MuxdvMShDJu12CpXv692AY4jhfNUPwcmQ==
+"@sveltejs/kit@^1.9":
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.9.1.tgz#516fe33ab6ee990c9efb18d88fe0ddd6e85c69e9"
+  integrity sha512-SC2pTnaloAL+6744tWl1/b1zGAhZX2zmgmUmKV4Y6nx/y5gP6+MTzY6SC74PYUWSlOPumi8wZ40hQ2RExCFuhg==
   dependencies:
     "@sveltejs/vite-plugin-svelte" "^2.0.0"
     "@types/cookie" "^0.5.1"
@@ -3553,10 +3553,10 @@ playwright-core@1.31.1:
   resolved "https://registry.yarnpkg.com/playwright-core/-/playwright-core-1.31.1.tgz#4deeebbb8fb73b512593fe24bea206d8fd85ff7f"
   integrity sha512-JTyX4kV3/LXsvpHkLzL2I36aCdml4zeE35x+G5aPc4bkLsiRiQshU5lWeVpHFAuC8xAcbI6FDcw/8z3q2xtJSQ==
 
-pocketbase@^0.10.1:
-  version "0.10.2"
-  resolved "https://registry.yarnpkg.com/pocketbase/-/pocketbase-0.10.2.tgz#ef0cf1215f56f0dc80dece6540b740547f7bb57f"
-  integrity sha512-728aVaPLhSwOyEqZ4+GJfqg1SHUAyokvErsOksxauvOXiRE/QSCn8s6bW1/KyU3NGqz248eBjUQY3aLwTV/CcA==
+pocketbase@^0.12.0:
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/pocketbase/-/pocketbase-0.12.0.tgz#ddc8616305776f3d26f230119562645d71b7cdf8"
+  integrity sha512-q+a9siWZisQu50dex6oZP0Xqxden9DDL1JalopVdkHntGHyBBcbcASPowaA8A0bO5grPjN1wSHnInwP+UuCp9A==
 
 postcss-import@^14.1.0:
   version "14.1.0"
