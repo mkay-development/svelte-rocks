@@ -7,7 +7,7 @@
 
   let events = [];
 
-  const pb = new PocketBase('https://dy0182sxnnam8k4.pocketbase.tech');
+  const pb = new PocketBase($url);
 
   onMount(async () => {
     let response = await pb.collection("event").getList(1, 50);
