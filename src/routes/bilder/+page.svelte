@@ -2,7 +2,6 @@
   import { url } from "./../../stores/backend";
   import PocketBase from "pocketbase";
   import { onMount } from "svelte";
-  export let data;
   import EventGrid from "../../lib/components/EventGrid.svelte";
   import { media, reset } from "../../stores/view";
 
