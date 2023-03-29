@@ -1,10 +1,19 @@
 <script>
-  /** @type {import('./$types').PageData} */
+  import { url } from "./../../stores/backend";
+  import PocketBase from "pocketbase";
+  import { onMount } from "svelte";
   export let data;
   import EventGrid from "../../lib/components/EventGrid.svelte";
   import { media, reset } from "../../stores/view";
 
-  let { events } = data;
+  let events = [];
+
+  const pb = new PocketBase('https://dy0182sxnnam8k4.pocketbase.tech');
+
+  onMount(async () => {
+    let response = await pb.collection("event").getList(1, 50);
+    events = response.items;
+  });
 </script>
 
 <div class="grid grid-cols-8 gap-3 mt-5">
