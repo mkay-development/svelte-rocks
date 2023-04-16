@@ -6,6 +6,8 @@
   import NavigationContent from "$lib/components/NavigationContent.svelte";
 </script>
 
+
+<svelte:head><script defer data-domain="rocks.mkay-development.de" src="https://bhkenqpeta4iu6t.plausible.dev/js/script.js"></script></svelte:head>
 <header
   class="mx-auto max-w-5xl mt-2 rounded-t-lg flex justify-between px-2 py-2 bg-gray-300"
 >
